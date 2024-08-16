@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista To-Do</title>
+    <link rel="stylesheet" href="corzinha.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Afazeres</h1>
+            <button id="theme-toggle">Modo Escuro</button>
+        </header>
+        <div class="stats">
+            <p>Pontos Diarios: <span id="points">0</span></p>
+            <p>Streak: <span id="fire">🔥</span> <span id="fire-count">0</span></p>
+        </div>
+        <div class="todo-list">
+            <input type="text" id="task-input" placeholder="Adicione uma tarefa">
+            <button id="add-task">Adicionar</button>
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
